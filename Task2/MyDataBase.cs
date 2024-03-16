@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    internal class MyDataBase : DbContext
+    public class MyDataBase : DbContext
     {
         public DbSet<Product> Products { get; set; }
 
